@@ -18,16 +18,17 @@ void main(){
 	fflush(stdin);
 	switch(operation){
 	case('+'):
-			printf("%f",operand1+operand2);
+		printf("%.2f + %.2f = %.2f",operand1,operand2,operand1+operand2);
 	break;
+		
 	case('-'):
-		 printf("%f",operand1-operand2);
+		 printf("%.2f - %.2f = %.2f",operand1,operand2,operand1-operand2);
 	break;
 	case('*'):
-		printf("%f",operand1*operand2);
+		printf ("%.2f * %.2f = %.2f",operand1,operand2,operand1*operand2);
 	break;
 	case('/'):
-		printf("%f",operand1/operand2);
+		printf("%.2f / %.2f = %.2f",operand1,operand2,operand1/operand2);
 	break;
 	default:
 		printf("wrong input");
