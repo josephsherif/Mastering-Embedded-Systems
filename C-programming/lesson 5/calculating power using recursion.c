@@ -23,12 +23,10 @@ int main ()
 }
 
 int calc_power(int number,int power){
-	static int counter = 0;
 	if(power ==0)
 		return 1;
-	if (counter < power){
+	else{
 		number *=calc_power(number,power-1);
-		counter++;
 	}
 	return number;
 }
