@@ -1,9 +1,11 @@
 /*
  * power recusion.c
+
  *
  *  Created on: 11 Aug 2023
  *      Author: Joseph Sherif
  */
+/*
 #include <stdio.h>
 #include <string.h>
 int calc_power(int number , int power);
@@ -23,6 +25,7 @@ int main ()
 }
 
 int calc_power(int number,int power){
+
 	if(power ==0)
 		return 1;
 	else{

@@ -4,7 +4,7 @@
  *  Created on: 10 Aug 2023
  *      Author: Joseph Sherif
  */
-/*#include <stdio.h>
+#include <stdio.h>
 void prime_numbers(int firstLimit, int secondLimit);
 int main()
 {
@@ -51,5 +51,5 @@ void prime_numbers(int firstLimit, int secondLimit){
 	}
 
 }
-*/
+
 
